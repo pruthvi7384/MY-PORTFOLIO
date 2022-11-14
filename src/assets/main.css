@@ -1,5 +1,5 @@
 /* ===========Import Google Fonts=========== */
-    @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Lato:ital,wght@0,400;0,700;1,700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Roboto+Serif:ital,opsz,wght@0,8..144,400;0,8..144,500;0,8..144,600;1,8..144,400;1,8..144,500;1,8..144,600&display=swap');
 /* ========X===Import Google Fonts===X======== */
 
 *{
@@ -12,58 +12,144 @@ html {
     scroll-behavior: smooth;
 }
 
-body{
-    background-color: #FFFFFF;
-    font-family: 'Lato', sans-serif;
-    overflow-x: hidden;
+:root{
+    --font-poppins : 'Poppins', sans-serif;
+    --font-roboto : 'Roboto Serif', serif;
+    --poppins-400 : 400;
+    --poppins-500 : 500;
+    --poppins-600 : 600;
+    --poppins-italic-400 : 400;
+    --poppins-italic-500 : 500;
+    --roboto-400 : 400;
+    --roboto-500 : 500;
+    --roboto-600 : 600;
+    --backgrund-color : #2b2d33;
+    --color1 : #f75023;
+    --color2 : #fff;
+    --color3 : #1cbe59;
+    --color4 : #8067f0;
+    --color5 : #b9b5c9;
+    --card-background : #4b4f5c;
+    --bg-1 : #fedfd7;
+    --bg-2 : #ddf5e6;
+    --bg-3 : #ece8fd;
+    --box-shadow: 0 4px 16px rgb(247 80 35 / 15%);
 }
 
-/* ===========CSS Styling Color and Fonts Deffined=========== */
-    :root{
-        --font-family:'Heebo', sans-serif;
-        --font-weigh4:400;
-        --font-weigh5:500;
-        --font-weigh6:600;
-        --font-weigh7:700;
-        --color1: #DE3163;
-        --color2: #FFFFFF;
-        --color3: #ACB1B4;
-        --color4: #000000;
-        --color5: #737A80;
-        --color6: #02121E;
-        --color8: #FF0000;
-        --yellow: #fffbbc;
-        --lightbox: #242424;
-        --bgColor:#E9F7EF;
-        --box-shadow: 0 0 20px rgb(0 0 0 / 5%);
-        --box-shadowcard:  0 4px 16px rgb(0 0 0 / 10%);
-    }
-/* ========X===CSS Styling Color and Fonts Deffined===X======== */
+body{
+    background-color: var(--backgrund-color);
+    font-family: var(--font-roboto);
+    overflow-x: hidden;
+    color: var(--color5);
+}
 
 /* ===============NavBar Components Styling============== */
     .navbar .container-fluid{
         padding: 8px 15px;
-        background-color: var(--color2);
-        box-shadow: var(--box-shadow);
     }
     .navbar .container-fluid .navbar-brand{
-        color: var(--color6);
-        font-family: var(--font-family);
-        font-weight: var(--font-weigh6);
-        font-size: 22px;
-    }
-    .navbar .container-fluid .navbar-brand span{
         color: var(--color1);
+        font-style: italic;
+        font-family: var(--font-roboto);
+        font-weight: var(--roboto-600);
+        font-size: 30px;
+        cursor: pointer;
     }
     .navbar .container-fluid .navbar-nav .nav-item .nav-link{
-        color: var(--color4);
+        color: var(--color2);
         font-size: 18px;
         padding: 8px 10px;
-        font-family: var(--font-family);
-        font-weight: var(--font-weigh5);
+        font-family: var(--font-poppins);
+        font-weight: var(--poppins-500);
         transition: 0.4s ease-in-out;
     }
     .navbar .container-fluid .navbar-nav .nav-item .nav-link:hover{
         color: var(--color1);
     }
 /* ===========X===NavBar Components Styling===X=========== */
+
+/* =============NavBar Active Class Styling========= */
+    .active{
+        color: var(--color1) !important;
+    }
+
+/* ========X===NavBar Active Class Styling===X====== */
+
+/* ==============Global Styling============= */
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+    a:hover{
+        color: inherit;
+    }
+/* =========X====Global Styling====X========= */
+
+/* ===================Home Banner============== */
+    .home{
+        background-image: url("./background.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+    .home .row{
+        width: 100%;
+        height: 100%;
+    }
+    .home .row .intro_card h4{
+        color: #f75023;
+        font-family: var(--font-poppins);
+        font-weight: var(--poppins-500);
+    }
+    .home .row .intro_card h1{
+        color: var(--color2);
+        font-family: var(--font-poppins);
+        font-weight: var(--poppins-500);
+        padding: 5px 0px;
+    }
+    .home .row .intro_card .tag ul, .home .row .intro_card .social_contact ul{
+        list-style: none;
+        padding: 0px !important;
+        padding-top: 5px;
+    }
+    .home .row .intro_card .tag ul li{
+        flex-basis: 25%;
+        padding: 5px;
+        font-size: 14px;
+        margin: 0px 5px;
+        text-align: center;
+        border-radius: 5px;
+        font-weight: var(--roboto-600);
+        cursor: pointer;
+    }
+    .home .row .intro_card .tag ul .skill{
+        background-color: var(--bg-1);
+        color: var(--color1);
+        box-shadow: var(--box-shadow);
+    }
+    .home .row .intro_card p{
+        font-weight: var(--roboto-500);
+        color: var(--color2);
+        padding: 0px;
+    }
+    .home .row .intro_card .social_contact ul li{
+        flex-basis: 15%;
+        padding: 5px;
+        font-size: 14px;
+        margin: 0px 5px;
+        text-align: center;
+        border-radius: 5px;
+        font-weight: var(--roboto-600);
+        cursor: pointer;
+    }
+    .home .row .intro_card .social_contact ul .socialLi{
+        background-color: var(--bg-3);
+        color: var(--color4);
+        box-shadow: var(--box-shadow);
+    }
+    .home .row .intro_card .social_contact ul .socialGi{
+        background-color: var(--bg-2);
+        color: var(--color3);
+        box-shadow: var(--box-shadow);
+    }
+/* ==============X====Home Banner====X========= */

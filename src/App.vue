@@ -1,13 +1,27 @@
-<script setup>
-import { RouterLink, RouterView } from "vue-router";
+<script>
+import { RouterView, RouterLink } from "vue-router";
+
+import Navigation from "./jsonData/navigation.js";
+
+export default {
+  name: "App",
+  data() {
+    return {
+      navigator: [],
+    };
+  },
+  created() {
+    this.navigator = Navigation;
+  },
+};
 </script>
 
 <template>
   <div>
-    <!-- Nav Bar -->
-    <nav class="navbar sticky-top navbar-expand-lg bg-light">
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"><span>Pruthviraj Rajput</span></a>
+        <router-link to="/" class="navbar-brand">Pruthviraj Rajput</router-link>
         <button
           class="navbar-toggler"
           type="button"
@@ -24,37 +38,24 @@ import { RouterLink, RouterView } from "vue-router";
           id="navbarSupportedContent"
         >
           <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <router-link class="nav-link" aria-current="page" to="/"
-                >Home</router-link
-              >
-            </li>
-            <li class="nav-item">
-              <router-link class="nav-link" aria-current="page" to="/about"
-                >About</router-link
-              >
-            </li>
-            <li class="nav-item">
-              <router-link class="nav-link" aria-current="page" to="/resume"
-                >Resume</router-link
-              >
-            </li>
-            <li class="nav-item">
-              <router-link class="nav-link" aria-current="page" to="/projects"
-                >Projects</router-link
-              >
-            </li>
-            <li class="nav-item">
-              <router-link class="nav-link" aria-current="page" to="/contact-us"
-                >Contact Us</router-link
+            <li class="nav-item" v-for="data in navigator" :key="data.id">
+              <router-link
+                exactActiveClass="active"
+                :to="data.path"
+                class="nav-link"
+                >{{ data.name }}</router-link
               >
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <!-- X-Nav Bar -->
+    <!-- X-Navigation Bar-X -->
 
-    <router-view />
+    <!-- Router View Of All Pages -->
+    <div>
+      <router-view></router-view>
+    </div>
+    <!-- X-Router View of All Pages-X -->
   </div>
 </template>
