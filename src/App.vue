@@ -31,7 +31,7 @@ export default {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span><i class="fas fa-bars"></i></span>
         </button>
         <div
           class="collapse navbar-collapse justify-content-end"
@@ -45,6 +45,22 @@ export default {
                 class="nav-link"
                 >{{ data.name }}</router-link
               >
+            </li>
+            <li class="socialLi nav-item">
+              <a
+                class="nav-link"
+                href="https://www.linkedin.com/in/pruthviraj-rajput-131ba61b4"
+                target="__blank"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </li>
+            <li class="socialGi nav-item">
+              <a
+                class="nav-link"
+                href="https://github.com/pruthvi7384"
+                target="__blank"
+                ><i class="fab fa-github"></i
+              ></a>
             </li>
           </ul>
         </div>

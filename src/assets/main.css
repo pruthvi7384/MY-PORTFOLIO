@@ -48,29 +48,62 @@ body{
         padding: 8px 15px;
     }
     .navbar .container-fluid .navbar-brand{
-        color: var(--color1);
+        color: var(--color3);
         font-style: italic;
         font-family: var(--font-roboto);
         font-weight: var(--roboto-600);
-        font-size: 30px;
+        font-size: 35px;
         cursor: pointer;
+    }
+    .navbar .container-fluid .navbar-toggler .fas {
+        color: var(--color5);
+        font-size: 25px;
+    }
+    .navbar-toggler{
+        border: none;
+    }
+    .navbar-toggler:focus{
+        box-shadow: none !important;
+        border: none !important;
     }
     .navbar .container-fluid .navbar-nav .nav-item .nav-link{
         color: var(--color2);
-        font-size: 18px;
+        font-size: 20px;
         padding: 8px 10px;
         font-family: var(--font-poppins);
         font-weight: var(--poppins-500);
         transition: 0.4s ease-in-out;
     }
     .navbar .container-fluid .navbar-nav .nav-item .nav-link:hover{
-        color: var(--color1);
+        color: var(--color3);
+    }
+    .navbar .container-fluid .navbar-nav .nav-item .nav-link .fa-linkedin-in{
+        font-size: 20px;
+        padding: 8px 10px;
+        text-align: center;
+        border-radius: 50%;
+        font-weight: var(--roboto-600);
+        cursor: pointer;
+        background-color: var(--bg-3);
+        color: var(--color4);
+        box-shadow: var(--box-shadow);
+    }
+    .navbar .container-fluid .navbar-nav .nav-item .nav-link .fa-github{
+        font-size: 20px;
+        padding:8px 10px;
+        text-align: center;
+        border-radius: 50%;
+        font-weight: var(--roboto-600);
+        cursor: pointer;
+        background-color: var(--bg-2);
+        color: var(--color3);
+        box-shadow: var(--box-shadow);
     }
 /* ===========X===NavBar Components Styling===X=========== */
 
 /* =============NavBar Active Class Styling========= */
     .active{
-        color: var(--color1) !important;
+        color: var(--color3) !important;
     }
 
 /* ========X===NavBar Active Class Styling===X====== */
@@ -96,8 +129,8 @@ body{
         width: 100%;
         height: 100%;
     }
-    .home .row .intro_card h4{
-        color: #f75023;
+    .home .row .intro_card h3{
+        color: var(--color3);
         font-family: var(--font-poppins);
         font-weight: var(--poppins-500);
     }
@@ -110,12 +143,11 @@ body{
     .home .row .intro_card .tag ul, .home .row .intro_card .social_contact ul{
         list-style: none;
         padding: 0px !important;
-        padding-top: 5px;
+        margin-top: 5px;
     }
     .home .row .intro_card .tag ul li{
-        flex-basis: 25%;
-        padding: 5px;
-        font-size: 14px;
+        padding: 5px 10px;
+        font-size: 16px;
         margin: 0px 5px;
         text-align: center;
         border-radius: 5px;
@@ -123,8 +155,8 @@ body{
         cursor: pointer;
     }
     .home .row .intro_card .tag ul .skill{
-        background-color: var(--bg-1);
-        color: var(--color1);
+        background-color: var(--bg-2);
+        color: var(--color3);
         box-shadow: var(--box-shadow);
     }
     .home .row .intro_card p{
@@ -133,12 +165,11 @@ body{
         padding: 0px;
     }
     .home .row .intro_card .social_contact ul li{
-        flex-basis: 15%;
-        padding: 5px;
-        font-size: 14px;
+        font-size: 16px;
+        padding: 5px 10px;
         margin: 0px 5px;
         text-align: center;
-        border-radius: 5px;
+        border-radius: 50%;
         font-weight: var(--roboto-600);
         cursor: pointer;
     }
@@ -153,3 +184,36 @@ body{
         box-shadow: var(--box-shadow);
     }
 /* ==============X====Home Banner====X========= */
+
+/* ===============Responsiveness================== */
+    @media(max-width:1024px){
+        .home .row .intro_card{
+            padding: 0px 50px;
+        }
+    }
+    @media(max-width:768px){
+        .navbar .container-fluid .navbar-nav{
+            background-color: var(--card-background);
+            height: 80vh;
+            text-align: center;
+            padding-top: 20px;
+        }
+        .home .row .intro_card .tag ul{
+            flex-wrap: wrap;
+        }
+        .home .row .intro_card .tag ul li{
+            margin-top: 10px;
+        }
+    }
+    @media(max-width: 425px){
+        .home .row .intro_card{
+            padding: 0px 25px;
+        }
+        .navbar .container-fluid .navbar-brand{
+            font-size: 25px !important;
+        }
+        .home .row .intro_card p, .home .row .intro_card .social_contact ul li,  .home .row .intro_card .tag ul li{
+            font-size: 14px;
+        }
+    }
+/* ===========X===Responsiveness====X============= */
