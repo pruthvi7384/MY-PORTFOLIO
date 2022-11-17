@@ -235,7 +235,7 @@ body{
         }
         .navbar .container-fluid .navbar-nav{
             background-color: var(--card-background);
-            height: 85vh;
+            height: 80vh;
             text-align: center;
             padding-top: 20px;
         }
@@ -248,7 +248,7 @@ body{
     }
     @media(max-width: 765px){
         .home .row .intro_card{
-            padding: 50px 25px 0px 25px;
+            padding: 20px 25px 0px 25px;
         }
     }
     @media(max-width: 425px){
