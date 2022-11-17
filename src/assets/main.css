@@ -239,6 +239,9 @@ body{
             text-align: center;
             padding-top: 20px;
         }
+        .navbar .container-fluid .navbar-nav .nav-item .nav-link button{
+            margin-top: 10px;
+        }
         .home .row .intro_card .tag ul{
             flex-wrap: wrap;
         }
