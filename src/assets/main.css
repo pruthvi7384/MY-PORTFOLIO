@@ -29,11 +29,15 @@ html {
     --color3 : #1cbe59;
     --color4 : #8067f0;
     --color5 : #b9b5c9;
+    --font-size-20 : 20px;
+    --font-size-16 : 16px;
+    --font-size-25 : 25px;
+    --font-size-35: 35px;
     --card-background : #4b4f5c;
     --bg-1 : #fedfd7;
     --bg-2 : #ddf5e6;
     --bg-3 : #ece8fd;
-    --box-shadow: 0 4px 16px rgb(247 80 35 / 15%);
+    --box-shadow: 0 4px 16px rgb(28 190 89/ 15%);
 }
 
 body{
@@ -47,17 +51,20 @@ body{
     .navbar .container-fluid{
         padding: 8px 15px;
     }
+    .background-nav {
+        background-color: var(--card-background);
+        box-shadow: var(--box-shadow);
+    }
     .navbar .container-fluid .navbar-brand{
         color: var(--color3);
-        font-style: italic;
         font-family: var(--font-roboto);
         font-weight: var(--roboto-600);
-        font-size: 35px;
+        font-size: var(--font-size-35);
         cursor: pointer;
     }
     .navbar .container-fluid .navbar-toggler .fas {
         color: var(--color5);
-        font-size: 25px;
+        font-size: var(--font-size-25);
     }
     .navbar-toggler{
         border: none;
@@ -68,8 +75,8 @@ body{
     }
     .navbar .container-fluid .navbar-nav .nav-item .nav-link{
         color: var(--color2);
-        font-size: 20px;
-        padding: 8px 10px;
+        font-size: var(--font-size-20);
+        padding: 8px 10px 0px 10px;
         font-family: var(--font-poppins);
         font-weight: var(--poppins-500);
         transition: 0.4s ease-in-out;
@@ -78,7 +85,7 @@ body{
         color: var(--color3);
     }
     .navbar .container-fluid .navbar-nav .nav-item .nav-link .fa-linkedin-in{
-        font-size: 20px;
+        font-size: var(--font-size-20);
         padding: 8px 10px;
         text-align: center;
         border-radius: 50%;
@@ -89,7 +96,7 @@ body{
         box-shadow: var(--box-shadow);
     }
     .navbar .container-fluid .navbar-nav .nav-item .nav-link .fa-github{
-        font-size: 20px;
+        font-size: var(--font-size-20);
         padding:8px 10px;
         text-align: center;
         border-radius: 50%;
@@ -98,6 +105,19 @@ body{
         background-color: var(--bg-2);
         color: var(--color3);
         box-shadow: var(--box-shadow);
+    }
+    .navbar .container-fluid .navbar-nav .nav-item .nav-link button{
+        background-color: var(--color3);
+        color: var(--color2);
+        font-size: var(--font-size-20);
+        font-family: var(--font-poppins);
+        font-weight: var(--poppins-500);
+    }
+    .navbar .container-fluid .navbar-nav .nav-item .nav-link button:focus{
+        border: 1px solid var(--color3);
+    }
+    .navbar .container-fluid .navbar-nav .nav-item .nav-link button span{
+         padding-left: 10px;
     }
 /* ===========X===NavBar Components Styling===X=========== */
 
@@ -147,7 +167,7 @@ body{
     }
     .home .row .intro_card .tag ul li{
         padding: 5px 10px;
-        font-size: 16px;
+        font-size: var(--font-size-16);
         margin: 0px 5px;
         text-align: center;
         border-radius: 5px;
@@ -163,9 +183,10 @@ body{
         font-weight: var(--roboto-500);
         color: var(--color2);
         padding: 0px;
+        font-style:italic;
     }
     .home .row .intro_card .social_contact ul li{
-        font-size: 16px;
+        font-size: var(--font-size-16);
         padding: 5px 10px;
         margin: 0px 5px;
         text-align: center;
@@ -183,6 +204,19 @@ body{
         color: var(--color3);
         box-shadow: var(--box-shadow);
     }
+    .home .row .intro_card .contact_me button{
+        background-color: var(--color3);
+        color: var(--color2);
+        font-weight: var(--roboto-600);
+        font-size: var(--font-size-16);
+        margin: 10px 5px 0px 5px;
+    }
+    .home .row .intro_card .contact_me button:focus{
+       border: 1px solid var(--color3);
+    }
+    .home .row .intro_card .contact_me button span{
+        padding-left: 10px;
+    }
 /* ==============X====Home Banner====X========= */
 
 /* ===============Responsiveness================== */
@@ -190,11 +224,18 @@ body{
         .home .row .intro_card{
             padding: 0px 50px;
         }
+        .navbar .container-fluid{
+            display: flex;
+            flex-direction: column;
+        }
     }
     @media(max-width:768px){
+        .navbar .container-fluid{
+            flex-direction: row;
+        }
         .navbar .container-fluid .navbar-nav{
             background-color: var(--card-background);
-            height: 80vh;
+            height: 85vh;
             text-align: center;
             padding-top: 20px;
         }
@@ -205,15 +246,14 @@ body{
             margin-top: 10px;
         }
     }
-    @media(max-width: 425px){
+    @media(max-width: 765px){
         .home .row .intro_card{
-            padding: 0px 25px;
+            padding: 50px 25px 0px 25px;
         }
+    }
+    @media(max-width: 425px){
         .navbar .container-fluid .navbar-brand{
-            font-size: 25px !important;
-        }
-        .home .row .intro_card p, .home .row .intro_card .social_contact ul li,  .home .row .intro_card .tag ul li{
-            font-size: 14px;
+            font-size: var(--font-size-25) !important;
         }
     }
 /* ===========X===Responsiveness====X============= */
