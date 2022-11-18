@@ -3,7 +3,16 @@
     <!-- Navigation Bar Component Imported -->
     <Navigation></Navigation>
     <!--X- Navigation Bar Component Imported -X-->
-    <h1>Projects Component</h1>
+    <div class="container project mt-4">
+      <div class="row headdings">
+        <h1>PROJECT</h1>
+        <p>My Work</p>
+      </div>
+      <div class="row">
+        <div class="col-xl-4"></div>
+        <div class="col-xl-8"></div>
+      </div>
+    </div>
   </div>
 </template>
 

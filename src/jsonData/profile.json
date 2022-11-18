@@ -1,0 +1,79 @@
+{
+    "profile":{
+        "name": "Pruthviraj Rajput",
+        "tag":[
+            "Full Stack Developer",
+            "Software Developer",
+            "Freelincer"
+        ],
+        "shortDescription": "I'm currently working in best software solution company in india, Siddhatech Software Services Pvt Ltd. , working as a Software Developer."
+    },
+    "skills":[
+        {
+            "id" : 1,
+            "name" : "HTML 5",
+            "level" : "80%"
+        },
+        {
+            "id" : 2,
+            "name" : "CSS 3",
+            "level" : "80%"
+        },
+        {
+            "id" : 3,
+            "name" : "JavaScripr",
+            "level" : "80%"
+        },
+        {
+            "id" : 4,
+            "name" : "React JS",
+            "level" : "70%"
+        },
+        {
+            "id" : 5,
+            "name" : "Vue Js",
+            "level" : "30%"
+        },
+        {
+            "id" : 6,
+            "name" : "PHP",
+            "level" : "60%"
+        },
+        {
+            "id" : 7,
+            "name" : "Java",
+            "level" : "50%"
+        },
+        {
+            "id" : 8,
+            "name" : "SpringBoot",
+            "level" : "50%"
+        },
+        {
+            "id" : 10,
+            "name" : "PlayFramwork",
+            "level" : "50%"
+        },
+        {
+            "id" : 11,
+            "name" : "MySQL",
+            "level" : "70%"
+        },
+        {
+            "id" : 12,
+            "name" : "MoongoDb",
+            "level" : "50%"
+        },
+        {
+            "id" : 13,
+            "name" : "Firebase",
+            "level" : "50%"
+        },
+        {
+            "id" : 14,
+            "name" : "Node JS",
+            "level" : "50%"
+        }
+    ],
+    "About":""
+}

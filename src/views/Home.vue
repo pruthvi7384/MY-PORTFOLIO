@@ -7,18 +7,20 @@
       <div class="row justify-content-center align-items-center text-center">
         <div class="col-xl-6 intro_card">
           <h3>Hello, I'm</h3>
-          <h1>Pruthviraj Rajput</h1>
+          <h1>{{ JSON.profile.name }}</h1>
           <div class="tag">
             <ul class="d-flex justify-content-center align-items-center">
-              <li class="skill">Full Stack Developer</li>
-              <li class="skill">Software Developer</li>
-              <li class="skill">Freelincer</li>
+              <li
+                class="skill"
+                v-for="(data, index) in JSON.profile.tag"
+                :key="index"
+              >
+                {{ data }}
+              </li>
             </ul>
           </div>
           <p>
-            I'm currently working in best software solution company in india,
-            Siddhatech Software Services Pvt Ltd. , working as a Software
-            Developer.
+            {{ JSON.profile.shortDescription }}
           </p>
           <div class="social_contact">
             <ul class="d-flex justify-content-center align-items-center">
@@ -54,6 +56,7 @@
 
 <script>
 import Navigation from "../components/Navigation.vue";
+import JSON from "../jsonData/profile.json";
 export default {
   components: { Navigation },
   name: "Home",

@@ -32,6 +32,8 @@ html {
     --font-size-20 : 20px;
     --font-size-16 : 16px;
     --font-size-25 : 25px;
+    --font-size-26 : 26px;
+    --font-size-28 : 28px;
     --font-size-35: 35px;
     --card-background : #4b4f5c;
     --bg-1 : #fedfd7;
@@ -48,9 +50,6 @@ body{
 }
 
 /* ===============NavBar Components Styling============== */
-    .navbar .container-fluid{
-        padding: 8px 15px;
-    }
     .background-nav {
         background-color: var(--card-background);
         box-shadow: var(--box-shadow);
@@ -76,7 +75,7 @@ body{
     .navbar .container-fluid .navbar-nav .nav-item .nav-link{
         color: var(--color2);
         font-size: var(--font-size-20);
-        padding: 8px 10px 0px 10px;
+        padding: 08px 10px 0px 10px;
         font-family: var(--font-poppins);
         font-weight: var(--poppins-500);
         transition: 0.4s ease-in-out;
@@ -160,12 +159,12 @@ body{
         font-weight: var(--poppins-500);
         padding: 5px 0px;
     }
-    .home .row .intro_card .tag ul, .home .row .intro_card .social_contact ul{
+    .home .row .intro_card .tag ul, .home .row .intro_card .social_contact ul, .about .about-info-row .tag ul{
         list-style: none;
         padding: 0px !important;
         margin-top: 5px;
     }
-    .home .row .intro_card .tag ul li{
+    .home .row .intro_card .tag ul li, .about .about-info-row .tag ul li{
         padding: 5px 10px;
         font-size: var(--font-size-16);
         margin: 0px 5px;
@@ -174,7 +173,7 @@ body{
         font-weight: var(--roboto-600);
         cursor: pointer;
     }
-    .home .row .intro_card .tag ul .skill{
+    .home .row .intro_card .tag ul .skill, .about .about-info-row .tag .skill{
         background-color: var(--bg-2);
         color: var(--color3);
         box-shadow: var(--box-shadow);
@@ -219,6 +218,51 @@ body{
     }
 /* ==============X====Home Banner====X========= */
 
+/* =============Headings========== */
+    h1{
+        font-family: var(--font-poppins);
+        font-size: var(--font-size-28);
+        font-weight: var(--poppins-600);
+        color: var(--color2);
+    }
+    h2{
+        font-size: var(--font-size-26);
+        font-family: var(--font-poppins);
+        font-weight: var(--roboto-600);
+    }   
+/* =========X===Headings===X====== */
+
+/* ================About Me============= */
+    .about .headdings h1, .project .headdings h1, .resume .headdings h1, .contact .headdings h1{
+        text-align: center;
+    }
+    .about .headdings p, .project .headdings p, .resume .headdings p, .contact .headdings p{
+        font-size: var(--font-size-20);
+        color: var(--color5);
+        font-weight: var(--roboto-600);
+        text-align: center;
+    }
+    .about .about-info-row .profile-img .img-thumbnail{
+      background-color: var(--color3);
+      border: 1px solid var(--color3);
+      padding: 3px !important;
+      cursor: pointer;
+    }
+    .about .about-info-row h2{
+        padding: 0px 0px 10px 0px;
+    }
+    .about .about-info-row h2 span{
+        color: var(--color3);
+    }
+    .about .about-info-row p{
+        padding: 10px 0px 0px 0px;
+        font-weight: var(--roboto-500);
+        font-size: var(--font-size-16);
+        font-style: italic;
+        color: var(--color5);
+    }
+/* ============X===About Me====X======== */
+
 /* ===============Responsiveness================== */
     @media(max-width:1024px){
         .home .row .intro_card{
@@ -229,7 +273,7 @@ body{
             flex-direction: column;
         }
     }
-    @media(max-width:768px){
+    @media(max-width:771px){
         .navbar .container-fluid{
             flex-direction: row;
         }
@@ -242,10 +286,10 @@ body{
         .navbar .container-fluid .navbar-nav .nav-item .nav-link button{
             margin-top: 10px;
         }
-        .home .row .intro_card .tag ul{
+        .home .row .intro_card .tag ul, .about .about-info-row .tag ul{
             flex-wrap: wrap;
         }
-        .home .row .intro_card .tag ul li{
+        .home .row .intro_card .tag ul li, .about .about-info-row .tag ul li{
             margin-top: 10px;
         }
     }

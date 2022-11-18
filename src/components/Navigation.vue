@@ -2,6 +2,7 @@
 import { RouterLink } from "vue-router";
 
 import Navigation from "../jsonData/navigation.js";
+import JSON from "../jsonData/profile.json";
 
 export default {
   name: "Navigation",
@@ -24,11 +25,13 @@ export default {
   <nav
     :class="[
       'navbar navbar-expand-lg',
-      component === 'Home' ? 'fixed-top' : 'sticy-top background-nav',
+      component === 'Home' ? 'fixed-top' : 'sticky-top background-nav',
     ]"
   >
     <div class="container-fluid">
-      <router-link to="/" class="navbar-brand">Pruthviraj Rajput</router-link>
+      <router-link to="/" class="navbar-brand">{{
+        JSON.profile.name
+      }}</router-link>
       <button
         class="navbar-toggler"
         type="button"
@@ -44,7 +47,7 @@ export default {
         class="collapse navbar-collapse justify-content-end"
         id="navbarSupportedContent"
       >
-        <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+        <ul class="navbar-nav mr-auto align-items-center mb-2 mb-lg-0">
           <li class="nav-item" v-for="data in navigator" :key="data.id">
             <router-link
               exactActiveClass="active"

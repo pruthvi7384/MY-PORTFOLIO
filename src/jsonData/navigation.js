@@ -6,7 +6,7 @@ const navigation = [
   },
   {
     id: 2,
-    name: "About Us",
+    name: "About",
     path: "/about",
   },
   {
@@ -16,12 +16,12 @@ const navigation = [
   },
   {
     id: 4,
-    name: "Projects",
+    name: "Project",
     path: "/projects",
   },
   {
     id: 5,
-    name: "Contact Us",
+    name: "Contact",
     path: "/contact",
   },
 ];
