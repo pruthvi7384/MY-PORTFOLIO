@@ -260,6 +260,55 @@ body{
         font-size: var(--font-size-16);
         font-style: italic;
         color: var(--color5);
+        text-align: justify;
+    }
+    .about .about-info-row .information ul{
+        list-style-type: none;
+        padding-left: 0px;
+        padding-top: 5px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .about .about-info-row .information ul li{
+        flex-basis: 50%;
+        font-family: var(--font-poppins);
+        padding: 5px 0px;
+        font-weight: var(--poppins-500);
+    }
+    .about .about-info-row .information ul li #icon{
+        padding-right: 5px;
+        color: var(--color3);
+    }
+    .about .about-info-row .information ul li #title{
+        padding-right: 5px;
+        font-weight: var(--poppins-600);
+        color: var(--color2);
+    }
+    .about .about-info-row #aboutMe{
+        font-style: normal;
+        font-weight: var(--roboto-500);
+        text-align: justify;
+        font-size: var(--font-size-16);
+        padding-top: 10px;
+        color: var(--color5);
+    }
+    .about .skills .skill{
+        padding: 10px;
+    }
+    .about .skills .skill label{
+        font-family: var(--font-poppins);
+        font-weight: var(--poppins-600);
+        color: var(--color2);
+        font-size: var(--font-size-16);
+        padding: 10px 0px;
+    }
+    .about .skills .skill .progress-bar{
+        background-color: var(--color3);
+        color: var(--color2);
+        font-weight: var(--roboto-600);
+        font-size: var(--font-size-16);
     }
 /* ============X===About Me====X======== */
 
@@ -296,6 +345,9 @@ body{
     @media(max-width: 765px){
         .home .row .intro_card{
             padding: 20px 25px 0px 25px;
+        }
+        .about .about-info-row .information ul li{
+            flex-basis: 100%;
         }
     }
     @media(max-width: 425px){

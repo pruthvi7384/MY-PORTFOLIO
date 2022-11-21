@@ -8,9 +8,7 @@
         <h1>ABOUT</h1>
         <p>Learn More About Me</p>
       </div>
-      <div
-        class="row about-info-row justify-content-center align-items-center mt-4"
-      >
+      <div class="row about-info-row justify-content-center mt-2">
         <div class="col-xl-4 p-3">
           <div class="profile-img">
             <img
@@ -38,6 +36,43 @@
           <p>
             {{ JSON.profile.shortDescription }}
           </p>
+          <div class="information">
+            <ul>
+              <li
+                v-for="(data, index) in JSON.personalInformation"
+                :key="index"
+              >
+                <span id="icon"><i class="fas fa-chevron-right"></i></span>
+                <span id="title">{{ data.name }} :</span> {{ data.value }}
+              </li>
+            </ul>
+          </div>
+          <p id="aboutMe">{{ JSON.About }}</p>
+        </div>
+      </div>
+      <div class="row mt-4 headdings">
+        <p>SKILLS</p>
+      </div>
+      <div class="row skills justify-content-center align-items-center pb-5">
+        <div
+          class="col-xl-6 skill"
+          v-for="(data, index) in JSON.skills"
+          :key="index"
+        >
+          <label :for="index">{{ data.name }}</label>
+          <div class="progress">
+            <div
+              class="progress-bar"
+              role="progressbar"
+              aria-label="Example with label"
+              :style="['width:' + data.level]"
+              :aria-valuenow="data.level"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              {{ data.level }}
+            </div>
+          </div>
         </div>
       </div>
     </div>
