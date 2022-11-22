@@ -31,6 +31,8 @@ html {
     --color5 : #b9b5c9;
     --font-size-20 : 20px;
     --font-size-16 : 16px;
+    --font-size-18 : 18px;
+    --font-size-22 : 22px;
     --font-size-25 : 25px;
     --font-size-26 : 26px;
     --font-size-28 : 28px;
@@ -228,8 +230,23 @@ body{
     h2{
         font-size: var(--font-size-26);
         font-family: var(--font-poppins);
-        font-weight: var(--roboto-600);
+        font-weight: var(--poppins-600);
     }   
+    h3{
+        font-size: var(--font-size-22);
+        font-family: var(--font-poppins);
+        font-weight: var(--poppins-600);
+    }
+    h4{
+        font-size: var(--font-size-20);
+        font-family: var(--font-poppins);
+        font-weight: var(--poppins-500);
+    }
+    h5{
+        font-size: var(--font-size-18);
+        font-family: var(--font-poppins);
+        font-weight: var(--poppins-500);
+    }
 /* =========X===Headings===X====== */
 
 /* ================About Me============= */
@@ -311,6 +328,67 @@ body{
         font-size: var(--font-size-16);
     }
 /* ============X===About Me====X======== */
+
+/* ================Resume============== */
+    .resume .summary h2{
+        color: var(--color2);
+        margin: 20px 0px;
+    }
+    .resume .summary .resume-iteam,  .resume .background .resume-iteam{
+        padding: 0 0 20px 20px;
+        margin-top: -2px;
+        border-left: 2px solid rgba(255, 255, 255, 0.2);
+        position: relative;
+    }
+    .resume .summary .resume-iteam p{
+        font-size: var(--font-size-16);
+        font-weight: var(--roboto-500);
+        text-align: justify;
+    }
+    .resume .summary .resume-iteam::before, .resume .background .resume-iteam::before{
+        content: "";
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        border-radius: 50px;
+        left: -9px;
+        top: 0;
+        background:var(--color3);
+        border: 2px solid var(--color3);
+    }
+    .resume .background h2{
+        color: var(--color2);
+        margin: 20px 0px;
+    }
+    .resume .background .resume-iteam h3{
+        color: var(--color3);
+        padding-bottom: 10px;
+    }
+    .resume .background .resume-iteam h4{
+        color: var(--color2);
+        padding-bottom: 5px;
+    }
+    .resume .background .resume-iteam .box{
+        padding: 5px 0px;
+    }
+    .resume .background .resume-iteam .box p span{
+        color: var(--color2);
+        padding:10px;
+        background-color: var(--card-background);
+        border-radius: 2px;
+        font-weight: var(--roboto-600);
+        font-size: var(--font-size-22);
+    }
+    .resume .background .resume-iteam h5{
+        color: var(--color2);
+    }
+    .resume .background .resume-iteam h5 span{
+        color: var(--color3);
+        font-family: var(--font-roboto);
+        font-weight: var(--roboto-600);
+        font-size: var(--font-size-22);
+    }
+/* ===========X====Resume====X========= */
 
 /* ===============Responsiveness================== */
     @media(max-width:1024px){

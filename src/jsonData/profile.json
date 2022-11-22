@@ -4,7 +4,7 @@
         "tag":[
             "Full Stack Developer",
             "Software Developer",
-            "Freelincer"
+            "Freelancer"
         ],
         "shortDescription": "I'm currently working in best software solution company in india, Siddhatech Software Services Pvt Ltd. , working as a Software Developer."
     },
@@ -117,5 +117,40 @@
             "level" : "50%"
         }
     ],
-    "About":"Computer Engineering student ⚙️. Bringing excellent Frontend, Backend skills and the ability to engineer responsive solutions after analyzing codes. 💡I am highly passionate 💫 about implementing new ideas and learning New technology. 💡I want to work with an organization that can give me ample opportunities ⛷️ to grow so that I will be able to help in the growth of that organization and will be able to enhance my skills and my capabilities ✔️. I am currently working 😊 at best software company in India Siddhatech Software Services Pvt Ltd. I am Currently working on 💫 Java, SpringBoot, Microservices, Jhipster, SQL, Postman, Agile Methodology, JSON, Vue js, Git, Github. I have experience in 😊 Webtechnology like HTML, CSS, JavaScript, React js, PHP, MERN stack. and also Git and Github."
+    "About":"Computer Engineering student ⚙️. Bringing excellent Frontend, Backend skills and the ability to engineer responsive solutions after analyzing codes. 💡I am highly passionate 💫 about implementing new ideas and learning New technology. 💡I want to work with an organization that can give me ample opportunities ⛷️ to grow so that I will be able to help in the growth of that organization and will be able to enhance my skills and my capabilities ✔️. I am currently working 😊 at best software company in India Siddhatech Software Services Pvt Ltd. I am Currently working on 💫 Java, SpringBoot, Microservices, Jhipster, SQL, Postman, Agile Methodology, JSON, Vue js, Git, Github. I have experience in 😊 Webtechnology like HTML, CSS, JavaScript, React js, PHP, MERN stack. and also Git and Github.",
+    "Education":[
+        {
+            "title" : "Bachelor of Engineering",
+            "specialization" : "Computer Engineering",
+            "year" : "2018 - 2022",
+            "univercity" : "North Maharashtra University",
+            "collage" : "SSBT's College of Engineering & Technology, Bambhori, Jalgaon",
+            "percentageInfo":{
+                "type" : "Overall CGPA :",
+                "value" : "9.02 CGPA"
+            }
+        },
+        {
+            "title" : "Higher Secondary Education",
+            "specialization" : "12 th",
+            "year" : "2016 - 2018",
+            "univercity" : "Maharashtra State Board",
+            "collage" : "Kai Sau G.F.Patil Jr College , Shahada , Nandurbar",
+            "percentageInfo":{
+                "type" : "Percentage :",
+                "value" : "72.52 %"
+            }
+        },
+        {
+            "title" : "Board of Secondary Education",
+            "specialization" : "10 th",
+            "year" : "2015 - 2016",
+            "univercity" : "Maharashtra State Board",
+            "collage" : "Shree Satpuda Vidyalaya, Lonkheda , Shahada , Nandurbar",
+            "percentageInfo":{
+                "type" : "Percentage :",
+                "value" : "69.20 %"
+            }
+        }
+    ]
 }
