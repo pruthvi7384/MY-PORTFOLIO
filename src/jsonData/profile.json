@@ -152,5 +152,116 @@
                 "value" : "69.20 %"
             }
         }
+    ],
+    "Experience":[
+        {
+            "designation": "Software Developer",
+            "companyName": "Siddhatech Software Services Pvt Ltd",
+            "joiningDate": "18 Oct 2022",
+            "endDate" : "",
+            "address": "Pune, Maharashtra, India",
+            "skills":[
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Vue Js",
+                "Boostrap",
+                "Java",
+                "Spring Boot",
+                "Play Framwork",
+                "MySQL",
+                "JSON",
+                "Postman",
+                "Agile Methodologies",
+                "Git",
+                "GitHub"
+            ]
+        },
+        {
+            "designation": "Trainee Software Developer",
+            "companyName": "Siddhatech Software Services Pvt Ltd",
+            "joiningDate": "15 July 2022",
+            "endDate" : "18 July 2022",
+            "address": "Pune, Maharashtra, India",
+            "skills":[
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Vue Js",
+                "Boostrap",
+                "Java",
+                "Spring Boot",
+                "Play Framwork",
+                "MySQL",
+                "JSON",
+                "Postman",
+                "Agile Methodologies",
+                "Git",
+                "GitHub"
+            ]
+        },
+        {
+            "designation": "Full Stack Developer",
+            "companyName": "KBCNMU-Centre for Innovation, Incubation and Linkages",
+            "joiningDate": "17 Nov 2021",
+            "endDate" : "17 Jun 2022",
+            "address": "Jalgaon, Maharashtra, India",
+            "skills":[
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Boostrap",
+                "PHP",
+                "MySQL",
+                "Git",
+                "GitHub"
+            ]
+        },
+        {
+            "designation": "Web Development Intern",
+            "companyName": "The Sparks Foundation",
+            "joiningDate": "01 Oct 2021",
+            "endDate" : "01 Nov 2021",
+            "address": "",
+            "skills":[
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Boostrap",
+                "PHP",
+                "MySQL",
+                "Git",
+                "GitHub"
+            ]
+        },
+        {
+            "designation": "Web Development Intern",
+            "companyName": "AnsrCoach",
+            "joiningDate": "01 Sep 2021",
+            "endDate" : "02 Sep 2021",
+            "address": "",
+            "skills":[
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Boostrap",
+                "PHP",
+                "MySQL",
+                "Git",
+                "GitHub"
+            ]
+        },
+        {
+            "designation": "Research And Development Intern",
+            "companyName": "A Plan by Consultants | Global",
+            "joiningDate": "01 Nov 2020",
+            "endDate" : "01 Feb 2021",
+            "address": "Delhi, India",
+            "skills":[
+                "Wix",
+                "Google Products",
+                "CMS Technology"
+            ]
+        }
     ]
 }

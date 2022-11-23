@@ -388,6 +388,26 @@ body{
         font-weight: var(--roboto-600);
         font-size: var(--font-size-22);
     }
+    .resume .background .resume-iteam ul{
+        list-style-type: none;
+        padding: 0px 0px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        align-items: center;
+    }
+    .resume .background .resume-iteam ul li{
+        padding: 5px 10px;
+        margin: 5px;
+        font-size: var(--font-size-16);
+        text-align: center;
+        border-radius: 5px;
+        font-weight: var(--roboto-600);
+        cursor: pointer;
+        background-color: var(--bg-2);
+        color: var(--color3);
+        box-shadow: var(--box-shadow);
+    }
 /* ===========X====Resume====X========= */
 
 /* ===============Responsiveness================== */
@@ -431,6 +451,11 @@ body{
     @media(max-width: 425px){
         .navbar .container-fluid .navbar-brand{
             font-size: var(--font-size-25) !important;
+        }
+    }
+    @media(max-width: 375px){
+        .resume .background .resume-iteam .box p span{
+            font-size: var(--font-size-18);
         }
     }
 /* ===========X===Responsiveness====X============= */

@@ -45,6 +45,34 @@
         </div>
         <div class="col-xl-6 p-3">
           <h2>Past Experience</h2>
+          <div
+            class="resume-iteam"
+            v-for="(data, index) in JSON.Experience"
+            :key="index"
+          >
+            <h3 class="text-uppercase">
+              {{ data.designation }}
+            </h3>
+            <div class="box">
+              <p>
+                <span
+                  >{{ data.joiningDate }} -
+                  <b :style="[data.endDate === '' ? 'color: #1cbe59' : '']"
+                    >{{ data.endDate === "" ? "Present" : data.endDate }}
+                  </b>
+                </span>
+              </p>
+            </div>
+            <h4>{{ data.companyName }}</h4>
+            <h4>
+              {{ data.address }}
+            </h4>
+            <ul>
+              <li v-for="(skill, index) in data.skills" :key="index">
+                {{ skill }}
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
