@@ -63,7 +63,7 @@
         },
         {
             "id" : 3,
-            "name" : "JavaScripr",
+            "name" : "JavaScript",
             "level" : "80%"
         },
         {
@@ -262,6 +262,28 @@
                 "Google Products",
                 "CMS Technology"
             ]
+        }
+    ],
+    "ContactDetails":[
+        {
+            "icon": "fas fa-map-marker-alt",
+            "heading": "My Address",
+            "value": "Pune, Maharastra, India"
+        },
+        {
+            "icon": "fab fa-whatsapp",
+            "heading": "WhatsAppOne",
+            "value": "+91 77209939337"
+        },
+        {
+            "icon": "fas fa-phone-alt",
+            "heading": "CallOne",
+            "value": "+91 8767286769"
+        },
+        {
+            "icon": "fas fa-envelope",
+            "heading": "EmailOne",
+            "value": "pruthviraj.rajput011@gmail.com"
         }
     ]
 }
