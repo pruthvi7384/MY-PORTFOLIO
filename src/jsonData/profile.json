@@ -285,5 +285,35 @@
             "heading": "EmailOne",
             "value": "pruthviraj.rajput011@gmail.com"
         }
+    ],
+    "Projects":[
+        {
+            "title": "Early Prediction of LifeStyle Diseases",
+            "image": "/src/assets/projects/diseases.jpg",
+            "githubLink": "https://github.com/pruthvi7384/BE-Project-Client-Side.git",
+            "liveDemoLink": "https://ehealthcareforeveryone.netlify.app/",
+            "technology": [
+                "React Js",
+                "React - Boostrap",
+                "Node Js",
+                "Express",
+                "Mongoose",
+                "MoongoDb"
+            ]
+        },
+        {
+            "title": "E-Marketplace For Tribal and Forest Products",
+            "image": "/src/assets/projects/emarket.png",
+            "githubLink": "https://github.com/T-E-Project/E-marketplace-For-Tribl-and-Forest-Product.git",
+            "liveDemoLink": "http://emartplace.infinityfreeapp.com/?i=1",
+            "technology": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Boostrap",
+                "PHP",
+                "MySQL"
+            ]
+        }
     ]
 }
