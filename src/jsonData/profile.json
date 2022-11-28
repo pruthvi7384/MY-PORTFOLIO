@@ -289,7 +289,7 @@
     "Projects":[
         {
             "title": "Early Prediction of LifeStyle Diseases",
-            "image": "../public/projects/diseases.jpg",
+            "image": "/projects/diseases.jpg",
             "githubLink": "https://github.com/pruthvi7384/BE-Project-Client-Side.git",
             "liveDemoLink": "https://ehealthcareforeveryone.netlify.app/",
             "technology": [
@@ -303,7 +303,7 @@
         },
         {
             "title": "E-Marketplace For Tribal and Forest Products",
-            "image": "../public/projects/emarket.png",
+            "image": "/projects/emarket.png",
             "githubLink": "https://github.com/T-E-Project/E-marketplace-For-Tribl-and-Forest-Product.git",
             "liveDemoLink": "http://emartplace.infinityfreeapp.com/?i=1",
             "technology": [
