@@ -19,31 +19,6 @@
       </div>
       <div class="row background mt-3">
         <div class="col-xl-6 p-3">
-          <h2>Education</h2>
-          <div
-            class="resume-iteam"
-            v-for="(data, index) in JSON.Education"
-            :key="index"
-          >
-            <h3 class="text-uppercase">
-              {{ data.title }} , {{ data.specialization }}
-            </h3>
-            <div class="box">
-              <p>
-                <span>{{ data.year }}</span>
-              </p>
-            </div>
-            <h4 class="text-uppercase">{{ data.univercity }}</h4>
-            <h4>
-              {{ data.collage }}
-            </h4>
-            <h5>
-              {{ data.percentageInfo.type }}
-              <span>{{ data.percentageInfo.value }}</span>
-            </h5>
-          </div>
-        </div>
-        <div class="col-xl-6 p-3">
           <h2>Past Experience</h2>
           <div
             class="resume-iteam"
@@ -72,6 +47,31 @@
                 {{ skill }}
               </li>
             </ul>
+          </div>
+        </div>
+        <div class="col-xl-6 p-3">
+          <h2>Education</h2>
+          <div
+            class="resume-iteam"
+            v-for="(data, index) in JSON.Education"
+            :key="index"
+          >
+            <h3 class="text-uppercase">
+              {{ data.title }} , {{ data.specialization }}
+            </h3>
+            <div class="box">
+              <p>
+                <span>{{ data.year }}</span>
+              </p>
+            </div>
+            <h4 class="text-uppercase">{{ data.univercity }}</h4>
+            <h4>
+              {{ data.collage }}
+            </h4>
+            <h5>
+              {{ data.percentageInfo.type }}
+              <span>{{ data.percentageInfo.value }}</span>
+            </h5>
           </div>
         </div>
       </div>

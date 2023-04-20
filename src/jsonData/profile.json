@@ -37,7 +37,7 @@
         {
             "id" : 6,
             "name":"CallOne",
-            "value": "+91 8767286769"
+            "value": "+91 7720993937"
         },
         {
             "id" : 7,
@@ -84,7 +84,7 @@
         {
             "id" : 7,
             "name" : "Java",
-            "level" : "50%"
+            "level" : "80%"
         },
         {
             "id" : 8,
@@ -98,23 +98,73 @@
         },
         {
             "id" : 11,
-            "name" : "MySQL",
+            "name" : "Quarkus",
             "level" : "70%"
         },
         {
             "id" : 12,
+            "name" : "MySQL",
+            "level" : "70%"
+        },
+        {
+            "id" : 13,
             "name" : "MoongoDb",
             "level" : "50%"
         },
         {
-            "id" : 13,
+            "id" : 14,
             "name" : "Firebase",
             "level" : "50%"
         },
         {
-            "id" : 14,
+            "id" : 15,
+            "name" : "Git & GitHub",
+            "level" : "80%"
+        },
+        {
+            "id" : 16,
+            "name" : "Microservices",
+            "level" : "60%"
+        },
+        {
+            "id" : 17,
+            "name" : "Agile Methodologies",
+            "level" : "80%"
+        },
+        {
+            "id" : 18,
+            "name" : "Middleware Development",
+            "level" : "80%"
+        },
+        {
+            "id" : 19,
             "name" : "Node JS",
             "level" : "50%"
+        },
+        {
+            "id" : 20,
+            "name" : "SQL",
+            "level" : "70%"
+        },
+        {
+            "id" : 21,
+            "name" : "PostgreSQL",
+            "level" : "70%"
+        },
+        {
+            "id" : 22,
+            "name" : "Bootstrap",
+            "level" : "70%"
+        },
+        {
+            "id" : 23,
+            "name" : "Oracle",
+            "level" : "70%"
+        },
+        {
+            "id": 24,
+            "name":"MoongoDb",
+            "level":"50%"
         }
     ],
     "About":"Computer Engineering student ⚙️. Bringing excellent Frontend, Backend skills and the ability to engineer responsive solutions after analyzing codes. 💡I am highly passionate 💫 about implementing new ideas and learning New technology. 💡I want to work with an organization that can give me ample opportunities ⛷️ to grow so that I will be able to help in the growth of that organization and will be able to enhance my skills and my capabilities ✔️. I am currently working 😊 at best software company in India Siddhatech Software Services Pvt Ltd. I am Currently working on 💫 Java, SpringBoot, Microservices, Jhipster, SQL, Postman, Agile Methodology, JSON, Vue js, Git, Github. I have experience in 😊 Webtechnology like HTML, CSS, JavaScript, React js, PHP, MERN stack. and also Git and Github.",
@@ -167,10 +217,16 @@
                 "Vue Js",
                 "Boostrap",
                 "Java",
+                "Quarkus",
                 "Spring Boot",
                 "Play Framwork",
                 "MySQL",
+                "SQL",
+                "PostgreSQL",
+                "Oracle",
                 "JSON",
+                "Microservices",
+                "Middleware Development",
                 "Postman",
                 "Agile Methodologies",
                 "Git",
@@ -273,12 +329,12 @@
         {
             "icon": "fab fa-whatsapp",
             "heading": "WhatsAppOne",
-            "value": "+91 77209939337"
+            "value": "+91 7720993937"
         },
         {
             "icon": "fas fa-phone-alt",
             "heading": "CallOne",
-            "value": "+91 8767286769"
+            "value": "+91 7720993937"
         },
         {
             "icon": "fas fa-envelope",
