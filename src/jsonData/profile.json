@@ -344,6 +344,36 @@
     ],
     "Projects":[
         {
+            "title": "SCILLP Website",
+            "image": "/projects/charging.png",
+            "githubLink": "https://github.com/pruthvi7384/Supriya-Charging-Infrastructure-Version-2.git",
+            "liveDemoLink": "https://scillp.com/",
+            "technology": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Boostrap",
+                "PHP",
+                "MySQL",
+                "Git & GitHub"
+            ]
+        },
+        {
+            "title": "Manolita-NGO Website",
+            "image": "/projects/ngo.png",
+            "githubLink": "https://github.com/pruthvi7384/Manolita-NGO-Jalgaon.git",
+            "liveDemoLink": "https://manolita.in/",
+            "technology": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Boostrap",
+                "PHP",
+                "MySQL",
+                "Git & GitHub"
+            ]
+        },
+        {
             "title": "Early Prediction of LifeStyle Diseases",
             "image": "/projects/diseases.jpg",
             "githubLink": "https://github.com/pruthvi7384/BE-Project-Client-Side.git",
@@ -370,6 +400,135 @@
                 "Boostrap",
                 "PHP",
                 "MySQL",
+                "Git & GitHub"
+            ]
+        },
+        {
+            "title": "Portfolio",
+            "image": "/projects/protfolio.png",
+            "githubLink": "https://github.com/pruthvi7384/MY-PORTFOLIO.git",
+            "liveDemoLink": "https://pruthviraj-rajput.netlify.app/#/",
+            "technology": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Vue Js",
+                "Boostrap",
+                "Git & GitHub"
+            ]
+        },
+        {
+            "title": "Project Tracking",
+            "image": "/projects/projecttracking.png",
+            "githubLink": "https://github.com/pruthvi7384/Project-Tracking.git",
+            "liveDemoLink": "https://northbes-project-tracking.netlify.app/#/",
+            "technology": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Vue Js",
+                "Boostrap",
+                "Git & GitHub"
+            ]
+        },
+        {
+            "title": "Netflix Clone",
+            "image": "/projects/netflix_clone.png",
+            "githubLink": "https://github.com/pruthvi7384/Netflix--Clone-React.git",
+            "liveDemoLink": "https://react-js-netflix-clone.netlify.app/",
+            "technology": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "React Js",
+                "React - Boostrap",
+                "Git & GitHub"
+            ]
+        },
+        {
+            "title": "Chat App React",
+            "image": "/projects/chat_app.png",
+            "githubLink": "https://github.com/pruthvi7384/Chat-App-React.git",
+            "liveDemoLink": "https://chat-web-app-651fc.web.app/singin",
+            "technology": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "React Js",
+                "Firebase",
+                "React - Boostrap",
+                "Git & GitHub"
+            ]
+        },
+        {
+            "title": "Box Office React",
+            "image": "/projects/box_office_reactt.png",
+            "githubLink": "https://github.com/pruthvi7384/Box-Office-React.git",
+            "liveDemoLink": "https://pruthvi7384.github.io/Box-Office-React/#/",
+            "technology": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "React Js",
+                "Api TMDB",
+                "React - Boostrap",
+                "Git & GitHub"
+            ]
+        },
+        {
+            "title": "Tinder Clone React",
+            "image": "/projects/tinder_clone.png",
+            "githubLink": "https://github.com/pruthvi7384/Tinder-Clone.git",
+            "liveDemoLink": "https://tinder-clone-21689.web.app/",
+            "technology": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "React Js",
+                "Firebase",
+                "React - Boostrap",
+                "Git & GitHub"
+            ]
+        },
+        {
+            "title": "Facebook Messanger Clone",
+            "image": "/projects/facebook_messanger.png",
+            "githubLink": "https://github.com/pruthvi7384/Facebook-Messanger-Clone.git",
+            "liveDemoLink": "https://messenger-app-816c8.web.app/?",
+            "technology": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "React Js",
+                "Firebase",
+                "React - Boostrap",
+                "Git & GitHub"
+            ]
+        },
+        {
+            "title": "Daily Market Prices",
+            "image": "/projects/market_prices.png",
+            "githubLink": "https://github.com/pruthvi7384/Market-Prices.git",
+            "liveDemoLink": "https://current-market-prices.netlify.app/",
+            "technology": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Market Price API",
+                "Git & GitHub"
+            ]
+        },
+        {
+            "title": "COVID-19 TRACKER India",
+            "image": "/projects/covid19.png",
+            "githubLink": "https://github.com/pruthvi7384/COVID-19-tracker.git",
+            "liveDemoLink": "https://covid-19trackerindia.netlify.app/",
+            "technology": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Boostrap",
+                "Covid 19 API",
                 "Git & GitHub"
             ]
         }
