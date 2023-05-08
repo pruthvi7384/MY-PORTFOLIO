@@ -13,7 +13,7 @@
           <div class="profile-img">
             <img
               class="img-fluid img-thumbnail"
-              src="../assets/profile.jpg"
+              src="../assets/profile.jpeg"
               alt=""
             />
           </div>

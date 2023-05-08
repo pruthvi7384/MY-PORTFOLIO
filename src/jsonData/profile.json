@@ -72,6 +72,11 @@
             "level" : "70%"
         },
         {
+            "id" : 24,
+            "name" : "Next JS",
+            "level" : "50%"
+        },
+        {
             "id" : 5,
             "name" : "Vue Js",
             "level" : "30%"
@@ -160,11 +165,6 @@
             "id" : 23,
             "name" : "Oracle",
             "level" : "70%"
-        },
-        {
-            "id": 24,
-            "name":"MoongoDb",
-            "level":"50%"
         }
     ],
     "About":"Computer Engineering student ⚙️. Bringing excellent Frontend, Backend skills and the ability to engineer responsive solutions after analyzing codes. 💡I am highly passionate 💫 about implementing new ideas and learning New technology. 💡I want to work with an organization that can give me ample opportunities ⛷️ to grow so that I will be able to help in the growth of that organization and will be able to enhance my skills and my capabilities ✔️. I am currently working 😊 at best software company in India Siddhatech Software Services Pvt Ltd. I am Currently working on 💫 Java, SpringBoot, Microservices, Jhipster, SQL, Postman, Agile Methodology, JSON, Vue js, Git, Github. I have experience in 😊 Webtechnology like HTML, CSS, JavaScript, React js, PHP, MERN stack. and also Git and Github.",
@@ -354,7 +354,8 @@
                 "Node Js",
                 "Express",
                 "Mongoose",
-                "MoongoDb"
+                "MoongoDb",
+                "Git & GitHub"
             ]
         },
         {
@@ -368,7 +369,8 @@
                 "JavaScript",
                 "Boostrap",
                 "PHP",
-                "MySQL"
+                "MySQL",
+                "Git & GitHub"
             ]
         }
     ]
