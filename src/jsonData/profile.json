@@ -2,11 +2,11 @@
     "profile":{
         "name": "Pruthviraj Rajput",
         "tag":[
-            "Full Stack Developer",
-            "Software Developer",
-            "Freelancer"
+            "Software Developer @Siddhatech",
+            "Passionate about Innovation & Growth",
+            "Actively Pursuing New Opportunities"
         ],
-        "shortDescription": "I'm currently working in best software solution company in india, Siddhatech Software Services Pvt Ltd. , working as a Software Developer."
+        "shortDescription": "I'm an experienced software developer adept in frontend and backend solutions, specializing in banking industry microservices and middleware development. Proficient in Java, Quarkus, React.js, and more, with a commitment to driving impactful change and fostering innovation."
     },
     "personalInformation":[
         {
@@ -17,7 +17,7 @@
         {
             "id" : 2,
             "name":"Age",
-            "value": "23"
+            "value": "24"
         },
         {
             "id" : 3,
@@ -51,6 +51,96 @@
         }
     ],
     "skills":[
+        {
+            "id" : 16,
+            "name" : "Microservices",
+            "level" : "60%"
+        },
+        {
+            "id" : 18,
+            "name" : "Middleware Development",
+            "level" : "80%"
+        },
+        {
+            "id" : 7,
+            "name" : "Java",
+            "level" : "80%"
+        },
+        {
+            "id" : 8,
+            "name" : "SpringBoot",
+            "level" : "50%"
+        },
+        {
+            "id" : 10,
+            "name" : "PlayFramwork",
+            "level" : "50%"
+        },
+        {
+            "id" : 11,
+            "name" : "Quarkus",
+            "level" : "70%"
+        },
+        {
+            "id" : 20,
+            "name" : "SQL",
+            "level" : "70%"
+        },
+        {
+            "id" : 23,
+            "name" : "Oracle",
+            "level" : "70%"
+        },
+        {
+            "id" : 21,
+            "name" : "PostgreSQL",
+            "level" : "70%"
+        },
+        {
+            "id" : 12,
+            "name" : "MySQL",
+            "level" : "70%"
+        },
+        {
+            "id" : 25,
+            "name" : "MoongoDb",
+            "level" : "50%"
+        },
+         {
+            "id" : 26,
+            "name" : "Jenkins",
+            "level" : "50%"
+        },
+        {
+            "id" : 27,
+            "name" : "OpenShift",
+            "level" : "50%"
+        },
+        {
+            "id" : 13,
+            "name" : "GO",
+            "level" : "50%"
+        },
+        {
+            "id" : 28,
+            "name" : "GIN",
+            "level" : "50%"
+        },
+        {
+            "id" : 14,
+            "name" : "Firebase",
+            "level" : "50%"
+        },
+        {
+            "id" : 15,
+            "name" : "Git & GitHub",
+            "level" : "80%"
+        },
+        {
+            "id" : 17,
+            "name" : "Agile Methodologies",
+            "level" : "80%"
+        },
         {
             "id" : 1,
             "name" : "HTML 5",
@@ -87,83 +177,13 @@
             "level" : "60%"
         },
         {
-            "id" : 7,
-            "name" : "Java",
-            "level" : "80%"
-        },
-        {
-            "id" : 8,
-            "name" : "SpringBoot",
-            "level" : "50%"
-        },
-        {
-            "id" : 10,
-            "name" : "PlayFramwork",
-            "level" : "50%"
-        },
-        {
-            "id" : 11,
-            "name" : "Quarkus",
-            "level" : "70%"
-        },
-        {
-            "id" : 12,
-            "name" : "MySQL",
-            "level" : "70%"
-        },
-        {
-            "id" : 13,
-            "name" : "MoongoDb",
-            "level" : "50%"
-        },
-        {
-            "id" : 14,
-            "name" : "Firebase",
-            "level" : "50%"
-        },
-        {
-            "id" : 15,
-            "name" : "Git & GitHub",
-            "level" : "80%"
-        },
-        {
-            "id" : 16,
-            "name" : "Microservices",
-            "level" : "60%"
-        },
-        {
-            "id" : 17,
-            "name" : "Agile Methodologies",
-            "level" : "80%"
-        },
-        {
-            "id" : 18,
-            "name" : "Middleware Development",
-            "level" : "80%"
-        },
-        {
             "id" : 19,
             "name" : "Node JS",
             "level" : "50%"
         },
         {
-            "id" : 20,
-            "name" : "SQL",
-            "level" : "70%"
-        },
-        {
-            "id" : 21,
-            "name" : "PostgreSQL",
-            "level" : "70%"
-        },
-        {
             "id" : 22,
             "name" : "Bootstrap",
-            "level" : "70%"
-        },
-        {
-            "id" : 23,
-            "name" : "Oracle",
             "level" : "70%"
         },
         {
@@ -172,7 +192,7 @@
             "level" : "40%"
         }
     ],
-    "About":"Computer Engineering student ⚙️. Bringing excellent Frontend, Backend skills and the ability to engineer responsive solutions after analyzing codes. 💡I am highly passionate 💫 about implementing new ideas and learning New technology. 💡I want to work with an organization that can give me ample opportunities ⛷️ to grow so that I will be able to help in the growth of that organization and will be able to enhance my skills and my capabilities ✔️. I am currently working 😊 at best software company in India Siddhatech Software Services Pvt Ltd. I am Currently working on 💫 Java, SpringBoot, Microservices, Jhipster, SQL, Postman, Agile Methodology, JSON, Vue js, Git, Github. I have experience in 😊 Webtechnology like HTML, CSS, JavaScript, React js, PHP, MERN stack. and also Git and Github.",
+    "About":"As an accomplished software developer with a robust background in both frontend and backend development, I am deeply committed to engineering responsive solutions and fostering innovation through meticulous code analysis. Currently in search of new opportunities with forward-thinking organizations, I am passionate about leveraging my expertise to drive impactful change. In my current role within the banking industry, I hold a pivotal position in building microservices and offering strategic technological insights. Leveraging tools such as Java, Quarkus, Spring Boot, Spark, OpenShift, Jenkins, and ActiveMQ, I ensure our solutions align with the industry's evolving needs. Additionally, my involvement in middleware development fortifies cybersecurity by facilitating secure communication across our system. Proficient across a diverse array of web technologies including HTML, CSS, JavaScript, React.js, PHP, and the MERN stack, I adeptly utilize Git and GitHub for seamless version control and collaboration. Eager to join a dynamic team where I can continue to grow, innovate, and drive tangible results, I am committed to making a meaningful impact. Let's connect and explore how my experience and expertise can elevate your organization's goals.",
     "Education":[
         {
             "title" : "Bachelor of Engineering",
@@ -216,27 +236,34 @@
             "endDate" : "",
             "address": "Pune, Maharashtra, India",
             "skills":[
+                "Microservices",
+                "Middleware Development",
+                "Java",
+                "Quarkus",
+                "Spark",
+                "Spring Boot",
+                "Play Framwork",
+                "Open-Shift",
+                "Jenkins",
+                "AMQP",
+                "GO",
+                "GIN",
+                "MySQL",
+                "SQL",
+                "PostgreSQL",
+                "Oracle",
                 "HTML",
                 "CSS",
                 "JavaScript",
                 "Vue Js",
                 "Boostrap",
-                "Java",
-                "Quarkus",
-                "Spring Boot",
-                "Play Framwork",
-                "MySQL",
-                "SQL",
-                "PostgreSQL",
-                "Oracle",
                 "JSON",
-                "Microservices",
-                "Middleware Development",
                 "Postman",
                 "Agile Methodologies",
                 "Git",
                 "GitHub",
-                "Flutter"
+                "Flutter",
+                "Incident Management"
             ]
         },
         {
