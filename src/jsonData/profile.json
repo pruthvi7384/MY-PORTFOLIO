@@ -378,9 +378,9 @@
     "Projects":[
        {
             "title": "API Gateway",
-            "image": "",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyT24dqq2f6fIYd9QdvMt2AtZf7othma7zJQ&usqp=CAU",
             "githubLink": "https://github.com/pruthvi7384/api-gateway-quarkus",
-            "liveDemoLink": "",
+            "liveDemoLink": "https://pruthviraj-rajput.netlify.app/#/projects",
             "technology": [
                 "Java",
                 "Quarkus",
@@ -390,9 +390,9 @@
         },    
         {
             "title": "MQ Communication",
-            "image": "",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyT24dqq2f6fIYd9QdvMt2AtZf7othma7zJQ&usqp=CAU",
             "githubLink": "https://github.com/pruthvi7384/Poc_Quarkus_MQ_Connection",
-            "liveDemoLink": "",
+            "liveDemoLink": "https://pruthviraj-rajput.netlify.app/#/projects",
             "technology": [
                 "Java",
                 "Quarkus",
@@ -402,9 +402,9 @@
         },    
         {
             "title": "TCP/IP Communication",
-            "image": "",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyT24dqq2f6fIYd9QdvMt2AtZf7othma7zJQ&usqp=CAU",
             "githubLink": "https://github.com/pruthvi7384/quarkus-tcp-ip-poc",
-            "liveDemoLink": "",
+            "liveDemoLink": "https://pruthviraj-rajput.netlify.app/#/projects",
             "technology": [
                 "Java",
                 "Quarkus",
