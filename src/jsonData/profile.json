@@ -376,6 +376,42 @@
         }
     ],
     "Projects":[
+       {
+            "title": "API Gateway",
+            "image": "",
+            "githubLink": "https://github.com/pruthvi7384/api-gateway-quarkus",
+            "liveDemoLink": "",
+            "technology": [
+                "Java",
+                "Quarkus",
+                "MySQL",
+                "Git & GitHub"
+            ]
+        },    
+        {
+            "title": "MQ Communication",
+            "image": "",
+            "githubLink": "https://github.com/pruthvi7384/Poc_Quarkus_MQ_Connection",
+            "liveDemoLink": "",
+            "technology": [
+                "Java",
+                "Quarkus",
+                "Active MQ",
+                "Git & GitHub"
+            ]
+        },    
+        {
+            "title": "TCP/IP Communication",
+            "image": "",
+            "githubLink": "https://github.com/pruthvi7384/quarkus-tcp-ip-poc",
+            "liveDemoLink": "",
+            "technology": [
+                "Java",
+                "Quarkus",
+                "Very.X",
+                "Git & GitHub"
+            ]
+        },    
         {
             "title": "SCILLP Website",
             "image": "/projects/charging.png",
