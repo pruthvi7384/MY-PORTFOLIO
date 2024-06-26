@@ -39,7 +39,7 @@
             </ul>
           </div>
           <div class="contact_me">
-            <a href="https://drive.google.com/file/d/1CBXL31UuY-1bkW1iRbwk5E2j8n5KKJT6/view" target="__blank"
+            <a href="https://drive.google.com/file/d/140Em6_xbvybeZIdY_iNz9UDALe0dGd0h/view?usp=drivesdk" target="__blank"
               ><button class="btn">
                 My Resume
                 <span><i class="fas fa-file-download"></i></span></button
