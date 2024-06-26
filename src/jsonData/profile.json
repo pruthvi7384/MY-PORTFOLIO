@@ -36,17 +36,17 @@
         },
         {
             "id" : 6,
-            "name":"CallOne",
+            "name":"CallOn",
             "value": "+91 7720993937"
         },
         {
             "id" : 7,
-            "name":"WhatsAppOne",
+            "name":"WhatsAppOn",
             "value": "+91 7720993937"
         },
         {
             "id" : 8,
-            "name":"EmailOne",
+            "name":"EmailOn",
             "value": "pruthviraj.rajput011@gmail.com"
         }
     ],
@@ -361,17 +361,17 @@
         },
         {
             "icon": "fab fa-whatsapp",
-            "heading": "WhatsAppOne",
+            "heading": "WhatsAppOn",
             "value": "+91 7720993937"
         },
         {
             "icon": "fas fa-phone-alt",
-            "heading": "CallOne",
+            "heading": "CallOn",
             "value": "+91 7720993937"
         },
         {
             "icon": "fas fa-envelope",
-            "heading": "EmailOne",
+            "heading": "EmailOn",
             "value": "pruthviraj.rajput011@gmail.com"
         }
     ],
