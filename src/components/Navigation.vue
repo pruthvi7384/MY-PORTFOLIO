@@ -73,7 +73,7 @@ export default {
             ></a>
           </li>
           <li class="nav-item">
-            <a href="https://drive.google.com/file/d/140Em6_xbvybeZIdY_iNz9UDALe0dGd0h/view?usp=drivesdk" class="nav-link" target="__blank"
+            <a href="https://drive.google.com/file/d/14V7JRvWh6L4jcNVsk690LRQS2tBgoAMH/view?usp=drivesdk" class="nav-link" target="__blank"
               ><button class="btn">
                 My Resume
                 <span><i class="fas fa-file-download"></i></span></button
