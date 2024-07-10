@@ -416,7 +416,20 @@
                 "Very.X",
                 "Git & GitHub"
             ]
-        },    
+        },  
+        {
+            "title": "Amazon s3 Quarkus",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyT24dqq2f6fIYd9QdvMt2AtZf7othma7zJQ&usqp=CAU",
+            "githubLink": "https://github.com/pruthvi7384/quarkus-tcp-ip-poc",
+            "liveDemoLink": "https://pruthviraj-rajput.netlify.app/#/projects",
+            "technology": [
+                "Java",
+                "Quarkus",
+                "Amazon s3",
+                "AWS CLI",
+                "Git & GitHub"
+            ]
+        },     
         {
             "title": "SCILLP Website",
             "image": "/projects/charging.png",
