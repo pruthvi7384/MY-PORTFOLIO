@@ -420,7 +420,7 @@
         {
             "title": "Amazon s3 Quarkus",
             "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyT24dqq2f6fIYd9QdvMt2AtZf7othma7zJQ&usqp=CAU",
-            "githubLink": "https://github.com/pruthvi7384/quarkus-tcp-ip-poc",
+            "githubLink": "https://github.com/pruthvi7384/poc-openshift-amazon-s3",
             "liveDemoLink": "https://pruthviraj-rajput.netlify.app/#/projects",
             "technology": [
                 "Java",
